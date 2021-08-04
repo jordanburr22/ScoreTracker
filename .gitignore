@@ -1,0 +1,5 @@
+frontendv2/.env
+backend/.env
+
+backend/node_modules
+frontendv2/node_modules
