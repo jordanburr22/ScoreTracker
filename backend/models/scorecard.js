@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 const scorecardSchema = mongoose.Schema({
 	userId: { type: Number, required: true },
-	startDate: { type: Date, required: true },
+	firstPitch: { type: Date, required: true },
 	location: { type: String, required: true },
 	isFinal: { type: Boolean, required: true },
 	half: { type: String, required: true, enums: ['T', 'B'] },

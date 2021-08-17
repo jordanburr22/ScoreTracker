@@ -11,6 +11,13 @@
             "processId": "${command:PickProcess}",
             "restart": true,
             "protocol": "inspector"
+        }, 
+        {
+            "type": "pwa-msedge",
+            "request": "launch",
+            "name": "Launch Edge against localhost",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}/frontend"
         }
     ]
 }

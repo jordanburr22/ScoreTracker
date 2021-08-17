@@ -1,4 +1,4 @@
-import { Button } from '@material-ui/core';
+import { Button, Container } from '@material-ui/core';
 import React from 'react';
 import ScorecardList from './ScorecardList';
 import { useHistory } from 'react-router-dom';
@@ -11,7 +11,7 @@ const Home = () => {
 	};
 
 	return (
-		<>
+		<Container className='pt-2'>
 			<Button
 				className='my-2'
 				variant='contained'
@@ -22,7 +22,7 @@ const Home = () => {
 				New Scorecard
 			</Button>
 			<ScorecardList />
-		</>
+		</Container>
 	);
 };
 
